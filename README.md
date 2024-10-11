@@ -43,7 +43,13 @@ Used stack: *FastAPI*, *PostgreSQL*, *DaDataAPI*.
 
 ##### Summary:
 
-Добавить города в хранилище
+Добавить город в хранилище
+
+##### Parameters
+
+| Name    | Required |
+|---------|----------|
+| title   | Yes      |
 
 ##### Responses
 
