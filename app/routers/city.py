@@ -80,7 +80,7 @@ async def delete_city(
 
 
 @router.get("/get/nearest", response_model=list[schemas.CityRead])
-async def get_cities(
+async def get_nearest_cities(
     lat: float,
     lon: float,
     amount: int = 2,
